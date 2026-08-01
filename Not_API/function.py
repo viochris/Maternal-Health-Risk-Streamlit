@@ -217,7 +217,7 @@ def predict(df_testing: pd.DataFrame, best_model=best_model, target_labels: list
 # ==============================================================================
 # 5. EXPLAINABILITY FUNCTION (LIME)
 # ==============================================================================
-def explain(df_testing: pd.DataFrame, feature_names: list = features_names, best_model=best_model, X_train_processed: np.ndarray=lime_training_data, target_labels: list = TARGET_LABELS, random_seed: int = RANDOM_SEED) -> str:
+def explain(df_testing: pd.DataFrame, feature_names: list = feature_names, best_model=best_model, X_train_processed: np.ndarray=lime_training_data, target_labels: list = TARGET_LABELS, random_seed: int = RANDOM_SEED) -> str:
     """
     Generates a LIME (Local Interpretable Model-agnostic Explanations) HTML output.
     Bypasses background data transformation as X_train_processed is already encoded.
