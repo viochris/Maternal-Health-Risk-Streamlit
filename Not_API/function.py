@@ -262,7 +262,7 @@ def explain(df_testing: pd.DataFrame, feature_names: list = feature_names, best_
             data_row=status_data_1d,
             predict_fn=ml_model.predict_proba,
             num_features=10,
-            top_labels=len(target_labels)
+            top_labels=len(target_labels) if len(target_labels) > 2 else 1
         )
         
         return explanation.as_html()
