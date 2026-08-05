@@ -306,7 +306,7 @@ st.markdown(
     f"""
     <div style='text-align: center; color: #A0AEC0; font-size: 14px; font-family: sans-serif; padding-bottom: 20px;'>
         <p style='margin-bottom: 8px;'>
-            🛠️ <strong>Built With:</strong> Frontend UI (Streamlit) | Backend API (FastAPI) | Machine Learning (Scikit-Learn) | Explainable AI (LIME) | Data Processing (Pandas & Numpy)
+            🛠️ <strong>Built With:</strong> Frontend UI (Streamlit) | Machine Learning (Scikit-Learn) | Explainable AI (LIME) | Data Processing (Pandas & Numpy)
         </p>
         <p style='margin-bottom: 8px;'>
             👨‍💻 Developed by <strong>Silvio Christian Joe</strong> &nbsp;|&nbsp; <a href='https://github.com/viochris' target='_blank' style='color: #00C9FF; text-decoration: none;'>GitHub (@viochris)</a>
